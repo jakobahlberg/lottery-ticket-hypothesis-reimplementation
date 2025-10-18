@@ -1,15 +1,11 @@
 # Lottery Ticket Hypothesis - Implementation
 
-This repository contains a complete implementation of the Lottery Ticket Hypothesis experiment from Frankle and Carbin (2018) using TensorFlow 2.x, designed to run in Google Colab.
+This repository contains a complete re-implementation of the Lottery Ticket Hypothesis experiment from Frankle and Carbin (2018) using TensorFlow 2.x, designed to run in Google Colab.
 
 ## Authors
 - Johan Nielsen
 - Lasse Abildhauge Christensen  
 - Jakob Ahlberg
-
-## Overview
-
-The Lottery Ticket Hypothesis proposes that dense neural networks contain smaller sub-networks (winning tickets) that, when trained in isolation, can achieve comparable performance to the original network. This implementation tests this hypothesis through iterative pruning experiments on MNIST classification.
 
 ## Key Features
 
