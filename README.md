@@ -54,14 +54,6 @@ Run comprehensive ablation studies to test different configurations:
 - **Early Stopping**: Validation accuracy vs loss
 - **Pruning Scope**: Local vs Global pruning
 
-### Expected Results
-
-The implementation produces several key outputs:
-
-1. **Training Curves**: Test accuracy vs training iterations at various sparsity levels
-2. **Early Stop Summary**: Performance metrics vs network size reduction
-3. **Ablation Comparisons**: Side-by-side analysis of different configurations
-4. **Saved Results**: Pickle files containing complete experiment data
 
 ### Network Architecture
 
@@ -83,27 +75,6 @@ The implementation produces several key outputs:
 - `experiment_main_results.pkl`: Complete results from main experiments
 - `ablation_results.pkl`: Results from all ablation studies
 
-## Key Findings
-
-Based on the implementation results:
-- **Unstructured pruning** significantly outperforms structured pruning
-- **Adam and SGD** show similar final performance
-- **Aggressive pruning** (>30% per layer) leads to performance degradation
-- **Global pruning** slightly outperforms local pruning
-- **Early stopping method** has minimal impact on final results
-
-## Technical Notes
-
-- Uses TensorFlow 2.x compatibility mode for original algorithm preservation
-- Implements both magnitude-based and structured pruning approaches
-- Includes carbon footprint tracking for environmental awareness
-- Supports custom pruning schedules and network architectures
-
-## Troubleshooting
-
-- **Memory Issues**: Reduce `iterations_per_round` or `batch_size`
-- **Slow Training**: Ensure GPU runtime is enabled in Colab
-- **Dependency Errors**: Restart runtime and re-run installation cell
 
 ## Citation
 
