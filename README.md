@@ -9,18 +9,13 @@ This repository contains a complete re-implementation of the Lottery Ticket Hypo
 
 ## Key Features
 
-- **Complete Implementation**: Full recreation of the original lottery ticket algorithm
+- **Complete Re-implementation**: Full recreation of the original lottery ticket algorithm
 - **TensorFlow 2.x Compatible**: Updated for modern TensorFlow while maintaining original algorithm fidelity
 - **Comprehensive Experiments**: Main experiment plus extensive ablation studies
 - **Visualization**: Multiple plotting functions for analyzing results
 - **Carbon Tracking**: Environmental impact monitoring during training
 
 ## Quick Start
-
-### Prerequisites
-- Google Colab environment (recommended)
-- Python 3.x
-- Internet connection for dependency installation
 
 ### Installation & Setup
 
@@ -36,11 +31,8 @@ This repository contains a complete re-implementation of the Lottery Ticket Hypo
 ### Running Experiments
 
 #### Main Experiment
-Execute the main lottery ticket experiment:
-```python
-# This runs 3 complete experiments with 25 pruning iterations each
-# Each experiment takes approximately 15-20 minutes on Colab GPU
-```
+Execute the main lottery ticket experiment.
+
 
 #### Ablation Studies
 Run comprehensive ablation studies to test different configurations:
